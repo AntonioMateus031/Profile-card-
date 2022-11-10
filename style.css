@@ -7,5 +7,14 @@ body{
     justify-content: flex-start;
     height: 700px;
     position: absolute ;
-    top: -200px;
+    top: -300px;
+}
+
+.pattern{
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    position:absolute;
+    left: 900px;
+    bottom: -5px;
 }
