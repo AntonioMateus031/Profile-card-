@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #1e8b8bf3;
 }
@@ -13,8 +18,21 @@ body{
 .pattern{
     display: flex;
     justify-content: flex-end;
-    height: 500px;
+    height: 700px;
     position:absolute;
-    left: 900px;
-    bottom: -5px;
+}
+
+.centro{
+    background-color: white;
+    min-height: 300px;
+    border: solid rgba(37, 37, 37, 0);
+    display: flex;
+    justify-content: center;
+    gap: 0px 15px;
+    align-items: center;
+
+}
+
+.center{
+    width: 350px;
 }
