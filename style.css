@@ -5,13 +5,14 @@
 }
 body{
     background-color: #1e8b8bf3;
+    overflow: hidden;
 }
 
 .container{
     display: flex;
     justify-content: flex-start;
     height: 700px;
-    position: absolute ;
+    position:absolute ;
     top: -300px;
 }
 
@@ -19,18 +20,17 @@ body{
     display: flex;
     justify-content: flex-end;
     height: 700px;
-    position:absolute;
+    position: relative ;
+    bottom: -400px;
+    
 }
 
 .centro{
-    background-color: white;
-    min-height: 300px;
-    border: solid rgba(37, 37, 37, 0);
-    display: flex;
-    justify-content: center;
-    gap: 0px 15px;
-    align-items: center;
 
+}
+
+.content{
+    border: solid black ;
 }
 
 .center{
